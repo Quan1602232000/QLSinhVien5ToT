@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DT_QL_SV5TOT_5ModelStoreContainer" CdmEntityContainer="DT_QL_SV5TOT_5Entities2">
+    <EntitySetMapping Name="CAP_TIEU_CHUAN">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.CAP_TIEU_CHUAN">
+        <MappingFragment StoreEntitySet="CAP_TIEU_CHUAN">
+          <ScalarProperty Name="MaCapTieuChuan" ColumnName="MaCapTieuChuan" />
+          <ScalarProperty Name="TenCapTieuChuan" ColumnName="TenCapTieuChuan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CURRENT_QUYDINH_DIEM">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.CURRENT_QUYDINH_DIEM">
+        <MappingFragment StoreEntitySet="CURRENT_QUYDINH_DIEM">
+          <ScalarProperty Name="MaQuyDinhDiem" ColumnName="MaQuyDinhDiem" />
+          <ScalarProperty Name="MaLoaiDiem" ColumnName="MaLoaiDiem" />
+          <ScalarProperty Name="DiemToiThieu" ColumnName="DiemToiThieu" />
+          <ScalarProperty Name="MaDonVi" ColumnName="MaDonVi" />
+          <ScalarProperty Name="MaTieuChuan" ColumnName="MaTieuChuan" />
+          <ScalarProperty Name="Mathoigian" ColumnName="Mathoigian" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CURRENT_TIME">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.CURRENT_TIME">
+        <MappingFragment StoreEntitySet="CURRENT_TIME">
+          <ScalarProperty Name="IDthoigian" ColumnName="IDthoigian" />
+          <ScalarProperty Name="TuNgay" ColumnName="TuNgay" />
+          <ScalarProperty Name="DenNgay" ColumnName="DenNgay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHUONG_TRINH">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.CHUONG_TRINH">
+        <MappingFragment StoreEntitySet="CHUONG_TRINH">
+          <ScalarProperty Name="MaChuongTrinh" ColumnName="MaChuongTrinh" />
+          <ScalarProperty Name="TenChuongTrinh" ColumnName="TenChuongTrinh" />
+          <ScalarProperty Name="MaTieuChuan" ColumnName="MaTieuChuan" />
+          <ScalarProperty Name="ThoiGianDienRa" ColumnName="ThoiGianDienRa" />
+          <ScalarProperty Name="DonViToChuc" ColumnName="DonViToChuc" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="LinkBaiDang" ColumnName="LinkBaiDang" />
+          <ScalarProperty Name="HinhAnh" ColumnName="HinhAnh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DIEMs">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.DIEM">
+        <MappingFragment StoreEntitySet="DIEM">
+          <ScalarProperty Name="Mssv" ColumnName="Mssv" />
+          <ScalarProperty Name="MaLoaiDiem" ColumnName="MaLoaiDiem" />
+          <ScalarProperty Name="Diem1" ColumnName="Diem" />
+          <ScalarProperty Name="MaHocKy" ColumnName="MaHocKy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DON_VI">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.DON_VI">
+        <MappingFragment StoreEntitySet="DON_VI">
+          <ScalarProperty Name="MaDonVi" ColumnName="MaDonVi" />
+          <ScalarProperty Name="TenDonVi" ColumnName="TenDonVi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOCKY_XETDIEM">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.HOCKY_XETDIEM">
+        <MappingFragment StoreEntitySet="HOCKY_XETDIEM">
+          <ScalarProperty Name="MaHocKy" ColumnName="MaHocKy" />
+          <ScalarProperty Name="HocKy" ColumnName="HocKy" />
+          <ScalarProperty Name="Nam" ColumnName="Nam" />
+          <ScalarProperty Name="MaThoiGianXetDiem" ColumnName="MaThoiGianXetDiem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KQ_THEO_TIEUCHI">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.KQ_THEO_TIEUCHI">
+        <MappingFragment StoreEntitySet="KQ_THEO_TIEUCHI">
+          <ScalarProperty Name="Mssv" ColumnName="Mssv" />
+          <ScalarProperty Name="MaTieuChi" ColumnName="MaTieuChi" />
+          <ScalarProperty Name="DanhGia" ColumnName="DanhGia" />
+          <ScalarProperty Name="TienDoHDBatBuoc" ColumnName="TienDoHDBatBuoc" />
+          <ScalarProperty Name="TienDoHDKhac" ColumnName="TienDoHDKhac" />
+          <ScalarProperty Name="TienDoTong" ColumnName="TienDoTong" />
+          <ScalarProperty Name="MaThoiGian" ColumnName="MaThoiGian" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOAI_DIEM">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.LOAI_DIEM">
+        <MappingFragment StoreEntitySet="LOAI_DIEM">
+          <ScalarProperty Name="MaLoaiDiem" ColumnName="MaLoaiDiem" />
+          <ScalarProperty Name="TenLoaiDiem" ColumnName="TenLoaiDiem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOAI_TIEU_CHUAN">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.LOAI_TIEU_CHUAN">
+        <MappingFragment StoreEntitySet="LOAI_TIEU_CHUAN">
+          <ScalarProperty Name="MaLoaiTieuChuan" ColumnName="MaLoaiTieuChuan" />
+          <ScalarProperty Name="TenLoaiTieuChuan" ColumnName="TenLoaiTieuChuan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHANVIENs">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.NHANVIEN">
+        <MappingFragment StoreEntitySet="NHANVIEN">
+          <ScalarProperty Name="IDnv" ColumnName="IDnv" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IDuser" ColumnName="IDuser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QUYDINH_DIEM">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.QUYDINH_DIEM">
+        <MappingFragment StoreEntitySet="QUYDINH_DIEM">
+          <ScalarProperty Name="MaQuyDinhDiem" ColumnName="MaQuyDinhDiem" />
+          <ScalarProperty Name="MaLoaiDiem" ColumnName="MaLoaiDiem" />
+          <ScalarProperty Name="DiemToiThieu" ColumnName="DiemToiThieu" />
+          <ScalarProperty Name="MaDonVi" ColumnName="MaDonVi" />
+          <ScalarProperty Name="MaTieuChuan" ColumnName="MaTieuChuan" />
+          <ScalarProperty Name="Mathoigian" ColumnName="Mathoigian" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROLEs">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.ROLE">
+        <MappingFragment StoreEntitySet="ROLE">
+          <ScalarProperty Name="IDrole" ColumnName="IDrole" />
+          <ScalarProperty Name="Role1" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SINH_VIEN">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.SINH_VIEN">
+        <MappingFragment StoreEntitySet="SINH_VIEN">
+          <ScalarProperty Name="Mssv" ColumnName="Mssv" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="NoiSinh" ColumnName="NoiSinh" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="Lop" ColumnName="Lop" />
+          <ScalarProperty Name="DonVi" ColumnName="DonVi" />
+          <ScalarProperty Name="Khoa" ColumnName="Khoa" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="IDuser" ColumnName="IDuser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIEU_CHI">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.TIEU_CHI">
+        <MappingFragment StoreEntitySet="TIEU_CHI">
+          <ScalarProperty Name="MaTieuChi" ColumnName="MaTieuChi" />
+          <ScalarProperty Name="TenTieuChi" ColumnName="TenTieuChi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIEU_CHUAN">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.TIEU_CHUAN">
+        <MappingFragment StoreEntitySet="TIEU_CHUAN">
+          <ScalarProperty Name="MaTieuChuan" ColumnName="MaTieuChuan" />
+          <ScalarProperty Name="TenTieuChuan" ColumnName="TenTieuChuan" />
+          <ScalarProperty Name="MaTieuChi" ColumnName="MaTieuChi" />
+          <ScalarProperty Name="MaLoaiTieuChuan" ColumnName="MaLoaiTieuChuan" />
+          <ScalarProperty Name="Cap" ColumnName="Cap" />
+          <ScalarProperty Name="QuyDinhGiai" ColumnName="QuyDinhGiai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THAMGIA_CHUONGTRINH">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.THAMGIA_CHUONGTRINH">
+        <MappingFragment StoreEntitySet="THAMGIA_CHUONGTRINH">
+          <ScalarProperty Name="Mssv" ColumnName="Mssv" />
+          <ScalarProperty Name="MaChuongTrinh" ColumnName="MaChuongTrinh" />
+          <ScalarProperty Name="Giai" ColumnName="Giai" />
+          <ScalarProperty Name="MaThoiGian" ColumnName="MaThoiGian" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THOIGIAN_XET">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.THOIGIAN_XET">
+        <MappingFragment StoreEntitySet="THOIGIAN_XET">
+          <ScalarProperty Name="MaThoiGian" ColumnName="MaThoiGian" />
+          <ScalarProperty Name="TuNgay" ColumnName="TuNgay" />
+          <ScalarProperty Name="DenNgay" ColumnName="DenNgay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THUCHIEN_TIEUCHUAN">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.THUCHIEN_TIEUCHUAN">
+        <MappingFragment StoreEntitySet="THUCHIEN_TIEUCHUAN">
+          <ScalarProperty Name="Mssv" ColumnName="Mssv" />
+          <ScalarProperty Name="MaTieuChuan" ColumnName="MaTieuChuan" />
+          <ScalarProperty Name="MaThoiGian" ColumnName="MaThoiGian" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERs">
+      <EntityTypeMapping TypeName="DT_QL_SV5TOT_5Model.USER">
+        <MappingFragment StoreEntitySet="USER">
+          <ScalarProperty Name="IDuser" ColumnName="IDuser" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IDrole" ColumnName="IDrole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="THOIDIEM_SV_THAMGIA" TypeName="DT_QL_SV5TOT_5Model.THOIDIEM_SV_THAMGIA" StoreEntitySet="THOIDIEM_SV_THAMGIA">
+      <EndProperty Name="SINH_VIEN">
+        <ScalarProperty Name="Mssv" ColumnName="Mssv" />
+      </EndProperty>
+      <EndProperty Name="THOIGIAN_XET">
+        <ScalarProperty Name="MaThoiGian" ColumnName="MaThoiGian" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
